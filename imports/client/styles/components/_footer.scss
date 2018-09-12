@@ -1,0 +1,32 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #777;
+  padding: .5rem;
+  color: #eee;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  position: absolute;
+  bottom: 11%;
+  left: 0;
+  width: 100%;
+}
+
+.card {
+  font-size: 10px;
+  flex-direction: row;
+  margin-right: 0.5rem;
+  padding: .2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  line-height: 1;
+  color: #777;
+}
